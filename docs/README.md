@@ -5,6 +5,8 @@
 </br><img src="https://laravel.com/img/favicon/apple-touch-icon.png" alt="Laravel Logo" width="12%" />
 
 ---
+
+
 # Task List
 ### 1. Branching
 - Start from the **01-task-list** branch and proceed as required with relative tags.
@@ -16,7 +18,17 @@ php checking.php
 ```
 If everything is ok, then go to the next step.
 ---
+###  3. useful extention and application before start the project.
+- *TablePlus* for GUI database.</br>
+Go to the website https://tableplus.com/ and install the free version of nice GUI tools for database.
 
+
+![Table Plus](./images/tableplus.png)
+
+- Add SQLite Viewer extension to your Visual Studio code. </br>
+This is useful extension to see internal database that Laravel has for itself. We don’t touch Laravel 
+internal database at all.</br>
+![Table Plus](./images/sqlite.png)
 ### 3. Creating a Laravel Project
 Laravel can be set up in multiple ways, but the **best method** is using **Composer**, as it automatically installs all necessary dependencies.
 
