@@ -57,24 +57,26 @@ if (empty($missing_extensions)) {
         echo "- $missing\n";
     }
 }
+// check db
+$db_connections = [
+    
+    'MySQL' => function() {
+        return extension_loaded('pdo_mysql');
+    },
+    'SQLite' => function() {
+        return extension_loaded('pdo_sqlite');
+    },
+        'PostgreSQL' => function() {
+        return extension_loaded('pdo_pgsql');
+    }
+];
+foreach ($db_connections as $db_name => $check) {
+    if ($check()) {
+        echo "{$green}OK{$reset} - Connection to $db_name is available\n";
+    } else {
+        echo "{$red}FAIL{$reset} - Connection to $db_name is not available\n";
+    }
+}
 
-// // Check database connections
-// $db_connections = [
-//     'PostgreSQL' => function() {
-//         return extension_loaded('pdo_pgsql');
-//     },
-//     'MySQL' => function() {
-//         return extension_loaded('pdo_mysql');
-//     },
-//     'SQLite' => function() {
-//         return extension_loaded('pdo_sqlite');
-//     },
-// ];
 
-// foreach ($db_connections as $db_name => $check) {
-//     if ($check()) {
-//         echo "{$green}OK{$reset} - Connection to $db_name is available\n";
-//     } else {
-//         echo "{$red}FAIL{$reset} - Connection to $db_name is not available\n";
-//     }
-// }
+
