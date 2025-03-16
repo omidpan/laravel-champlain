@@ -16,20 +16,23 @@
 ```sh
 php checking.php
 ```
+<img src="./images/checking_php.png" width="250" />
+
 If everything is ok, then go to the next step.
 ---
 ###  3. useful extention and application before start the project.
 - *TablePlus* for GUI database.</br>
 Go to the website https://tableplus.com/ and install the free version of nice GUI tools for database.
 
+<img src="./images/tableplus.png" width="250" />
 
-![Table Plus](./images/tableplus.png)
 
 - Add SQLite Viewer extension to your Visual Studio code. </br>
 This is useful extension to see internal database that Laravel has for itself. We don’t touch Laravel 
 internal database at all
 ---
-![Table Plus](./images/sqlite.png)
+<img src="./images/sqlite.png" width="350" />
+
 ---
 ### 3. Creating a Laravel Project
 Laravel can be set up in multiple ways, but the **best method** is using **Composer**, as it automatically installs all necessary dependencies.
