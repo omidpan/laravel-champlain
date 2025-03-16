@@ -7,19 +7,7 @@
 ---
 # Task List
 ### 1. Branching
-- Start from the **01-task-list** branch and proceed as required.
-- Each section of a completed part includes an associated tag that you can checkout to it directly. 
-- How to switch to a tag :
-   ```sh
-   git checkout 00-initial
-   ```
-- if you want to switch to the latest code, it is very easy . Just instead of tag name you can checkout to   the branch. supposed we want to checkout to branch 01-branch , then type
-   ```sh
-    git checkout 01-task-list
-   ```
-- Each branch is dedicated to a different project, so be sure to check out the correct branch before working on a specific project.
-
----
+- Start from the **01-task-list** branch and proceed as required with relative tags.
 
 ## 2. Before to build a Laravel first app, Let's be sure *php* works without the problem.
 - There is a **checking.php** file that you should execute it from terminal and see the result 
