@@ -1,6 +1,8 @@
 
 <img src="https://champlainsaintlambert.ca/wp-content/uploads/2022/07/logo-without-flag.png" alt="Champlain-college" width="30%" />
-</br><img src="https://laravel.com/img/favicon/apple-touch-icon.png" alt="Laravel Logo" width="12%" />
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
 
 # Laravel Champlain
 
