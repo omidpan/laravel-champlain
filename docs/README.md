@@ -27,8 +27,10 @@ Go to the website https://tableplus.com/ and install the free version of nice GU
 
 - Add SQLite Viewer extension to your Visual Studio code. </br>
 This is useful extension to see internal database that Laravel has for itself. We don’t touch Laravel 
-internal database at all.</br>
+internal database at all
+---
 ![Table Plus](./images/sqlite.png)
+---
 ### 3. Creating a Laravel Project
 Laravel can be set up in multiple ways, but the **best method** is using **Composer**, as it automatically installs all necessary dependencies.
 
