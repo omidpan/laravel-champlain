@@ -42,4 +42,3 @@ Hello I am from Blade Template
 @endforelse
 
 </div>
-

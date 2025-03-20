@@ -55,7 +55,7 @@ $tasks = [
   ),
 ];
 Route::get('/', function () {
-    return Route::redirect()->route('tasks.index');
+    return redirect()->route('tasks.index');
 
 });
 Route::get('/tasks', function () use ($tasks) {
@@ -69,6 +69,6 @@ Route::get('/{id}',function($id)use($tasks){
     if(!$task){
     abort(Response::HTTP_NOT_FOUND);
     }
-    return view('show',['task'=>task]);
+    return view('show',['task'=>$task]);
 } )->name('tasks.show');
 
