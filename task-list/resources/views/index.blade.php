@@ -1,4 +1,20 @@
-Hello I am from Blade Template
+<h1>The list of tasks: </h1>
+
+<div>
+@forelse ($tasks as $task)
+    <li>
+        <a href="{{ route('tasks.show', ['id' => $task->id]) }}">{{$task->title}}
+    </li>
+@empty
+  <div> Tasks list is empty</div>
+@endforelse
+
+</div>
+
+
+
+
+{{-- Hello I am from Blade Template --}}
 {{-- @isset($name)
     <div>
         My Name is : {{$name}}
@@ -28,17 +44,3 @@ Hello I am from Blade Template
 @endforelse
 
 </div> --}}
-
-
-<h1>The list of tasks: </h1>
-
-<div>
-@forelse ($tasks as $task)
-    <li>
-        <a href="{{ route('tasks.show', ['id' => $task->id]) }}">{{$task->title}}
-    </li>
-@empty
-  <div> Tasks list is empty</div>
-@endforelse
-
-</div>
