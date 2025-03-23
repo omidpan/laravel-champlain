@@ -56,7 +56,7 @@ Since the project is being built gradually throughout the course, **you will not
 ## Summary <img src="https://laravel.com/img/favicon/safari-pinned-tab.svg" alt="Laravel Logo" width="10%" />
 - **Branches**: Each branch corresponds to a specific Laravel project.
 - **Tags**: Tags are used to mark the completion of different stages of a project. They are named using a specific convention: `digits-projectName-branchName-init` or `done`.
-- **Important Notice**: Start with the `00-init` tag, as it is the first step in the learning path.
+- **Important Notice**: Start with the `00-tasklist` tag, as it is the first step in the learning path.
 - **Gradual Progress**: As you progress through the course, new tags will be added to reflect each stage of the project.
 
 ---
