@@ -12,12 +12,16 @@ Welcome to the **Laravel Champlain** project! This repository contains various L
 After cloning the repository, you can fetch all the branches and tags at the beginning, or you can do it gradually as you build the project. Here is the command to fetch all branches and tags:
 ```sh
 git fetch --all --tags
+git branch --all 
+git tag
 ```
+
+
 ### 2. **Working with Tags**
 Tags are labels attached to specific commits, allowing you to access them directly, regardless of the branch you're on. You can easily check out a tag from any branch.
-For example, if you are on the `main` branch and want to check out the `00-task-list-init` tag, simply use the following command:
+For example, if you are on the `main` branch and want to check out the `00-tasklist` tag, simply use the following command:
 ```sh
-git checkout 00-task-list-init
+git checkout 00-tasklist
 ```
 ### 3. **Checking Out Latest Code in a Branch**
 To get the latest code from any branch, you can use the following command:
