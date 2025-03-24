@@ -38,12 +38,19 @@ After creating the Laravel project:
 1. Navigate into the project directory:
    ```sh
    cd task-list
+   composer install
    ```
 2. Start the Laravel development server:
    ```sh
    php artisan serve
    ```
 3. Open your browser and visit `http://127.0.0.1:8000` to see your Laravel application in action.
+
+4. After having sqlite database and .env file , then we will stop tracking these 2 files because of security
+  ```
+      git update-index --assume-unchanged task-list/.env
+      git update-index --assume-unchanged task-list/database/database.sqlite
+   ```
 
 ---
 
