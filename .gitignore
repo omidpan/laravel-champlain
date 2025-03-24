@@ -23,3 +23,5 @@ yarn-error.log
 /.vscode
 /.zed
 task-list/database/database.sqlite
+task-list/.env
+
