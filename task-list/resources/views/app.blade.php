@@ -4,6 +4,7 @@
 <html>
     <head>
         <title> Laravel 10  Task List </title>
+        @yield('styles')
     </head>
 
     <body>
