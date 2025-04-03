@@ -42,5 +42,5 @@ Route::post('/tasks',function(Request $request){
     // Laravel model is smart enough to save data in the database with save() method.
     $task->save();
 // let's redirect to the already created task
-    return redirect()->route('tasks.show', ['id' => $task->id]);
+    return redirect()->route('tasks.show', ['id' => $task->id])->with('success','Task created successfully');
 })->name('tasks.store');
