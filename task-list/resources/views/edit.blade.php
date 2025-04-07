@@ -1,5 +1,5 @@
-@extends('app')
+@extends('layouts.app')
 
- @section('content')
-   @include('form',['task'=>$task])
- @endsection
+@section('content')
+  @include('form', ['task' => $task])
+@endsection
