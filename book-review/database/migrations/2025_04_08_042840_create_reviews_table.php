@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->text('review');
             $table->unsignedBigInteger('rating');
-            $table->unsignedBigInteger('book_id'); //foreign key
+            // $table->unsignedBigInteger('book_id'); //foreign key
             $table->timestamps();
 
             //how to define a foreignKey
