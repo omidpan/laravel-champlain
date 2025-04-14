@@ -19,7 +19,8 @@ return new class extends Migration
             $table->timestamps();
 
             //how to define a foreignKey
-            $table->foreign('book_id')->references('id')->on('books')->onDelete('cascade');
+            // $table->foreign('book_id')->references('id')->on('books')->onDelete('cascade');
+            $table->foreignId('book_id')->constrained()->cascadeOnDelete(); //new Laravel version
         });
     }
 
