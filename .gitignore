@@ -25,3 +25,4 @@ yarn-error.log
 task-list/database/database.sqlite
 task-list/.env
 
+hotel-reservation/*
