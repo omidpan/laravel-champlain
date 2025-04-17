@@ -6,4 +6,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::resource('Books',BookController::class);//automatic route
+Route::resource('books',BookController::class);//automatic route
